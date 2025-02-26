@@ -86,7 +86,8 @@ form {
 .todo {
     width: 100%;
     list-style-type: none;
-    font-size: 18px;
+    font-size: 15px;
+    padding: 5px;
     background-color: rgb(231, 231, 231);
     padding: 14px 5px;
     border-radius: 7px;
@@ -100,31 +101,22 @@ form {
 .delete {
     position: absolute;
     right: 5px;
-    font-size: 18px;
+    font-size: 13px;
     top: 50%;
     transform: translateY(-50%);
 }
-
-.time {
-    display: block;
-    font-size: 15px;
-    margin-top: 5px;
-    margin-bottom: 0;
-}
-
 .edit {
     position: absolute;
     right: 33px;
-    font-size: 17px;
+    font-size: 13px;
     color: black;
     top: 50%;
     transform: translateY(-50%);
 }
-
 .checkBox {
     width: 15px;
-    height: 15px;
-    margin-right: 7px;
-    margin-top: 5px;
+    height: 12px;
+    margin-right: 5px;
+    margin-top: 7px;
     transform: translateY(-50% -50%);
 }
