@@ -96,6 +96,7 @@ form {
     margin-top: 5px;
     margin-left: 2px;
     position: relative;
+    text-wrap: pretty;
 }
 
 .delete {
@@ -107,7 +108,7 @@ form {
 }
 .edit {
     position: absolute;
-    right: 33px;
+    right: 25px;
     font-size: 13px;
     color: black;
     top: 50%;
