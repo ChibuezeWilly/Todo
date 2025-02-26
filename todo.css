@@ -64,15 +64,17 @@ form {
     border: none;
     outline: none;
     margin: auto;
+    z-index: 1000;
 }
 
 #icon {
     position: absolute;
     color: rgb(15, 142, 15);
     font-size: 35px;
-    left: 95%;
+    left:88%;
     top: 50%;
     transform: translateY(-50%);
+    z-index: 1;
 }
 
 .showmessage {
@@ -85,6 +87,7 @@ form {
 }
 #listitem {
     margin-top: 10px;
+    width: 95%;
 }
 .todo {
     width: 100%;
