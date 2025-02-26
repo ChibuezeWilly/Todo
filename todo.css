@@ -79,7 +79,9 @@ form {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+#listitem {
+    margin-top: 10px;
+}
 .todo {
     width: 100%;
     list-style-type: none;
@@ -89,10 +91,9 @@ form {
     border-radius: 7px;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    margin-top: 5px;
+    margin-top: 3px;
     margin-left: 2px;
     position: relative;
-    margin-top: 20px;
 }
 
 .delete {
