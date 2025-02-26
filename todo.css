@@ -1,0 +1,128 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/cristina-gottardi-CSpjU6hYo_0-unsplash.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    right: 50%;
+}
+
+.heading {
+    margin: auto;
+    margin-top: 10px;
+}
+
+.header {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.img {
+    height: 48px;
+}
+
+#page {
+    width: 500px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+form {
+    position: relative;
+    border: none;
+    margin: auto;
+}
+
+.input {
+    padding-left: 15px;
+    font-size: 20px;
+    height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin: auto;
+}
+
+#icon {
+    position: absolute;
+    color: rgb(15, 142, 15);
+    font-size: 35px;
+    left: 93%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.showmessage {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo {
+    width: 100%;
+    list-style-type: none;
+    font-size: 18px;
+    background-color: rgb(231, 231, 231);
+    padding: 14px 5px;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 2px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.delete {
+    position: absolute;
+    right: 5px;
+    font-size: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.time {
+    display: block;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.edit {
+    position: absolute;
+    right: 33px;
+    font-size: 17px;
+    color: black;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.checkBox {
+    width: 15px;
+    height: 15px;
+    margin-right: 7px;
+    margin-top: 5px;
+    transform: translateY(-50% -50%);
+}
