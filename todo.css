@@ -38,7 +38,8 @@ body {
 }
 
 .img {
-    height: 48px; margin-top: 2px;
+    height: 48px;
+    margin-top: 2px;
 }
 
 #page {
@@ -71,7 +72,7 @@ form {
     position: absolute;
     color: rgb(15, 142, 15);
     font-size: 35px;
-    left:88%;
+    left: 88%;
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
@@ -85,15 +86,18 @@ form {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #listitem {
     margin-top: 10px;
     width: 95%;
 }
+
 .todo {
+    text-wrap: wrap;
     width: 100%;
     list-style-type: none;
     font-size: 15px;
-    padding: 5px;
+    padding: 45px;
     background-color: rgb(231, 231, 231);
     padding: 14px 5px;
     border-radius: 7px;
@@ -102,28 +106,80 @@ form {
     margin-top: 5px;
     margin-left: 2px;
     position: relative;
-    text-wrap: pretty;
 }
 
 .delete {
     position: absolute;
     right: 5px;
     font-size: 13px;
+    margin-top: 14px;
     top: 50%;
     transform: translateY(-50%);
 }
+
 .edit {
     position: absolute;
     right: 25px;
+    margin-top: 14px;
     font-size: 13px;
     color: black;
     top: 50%;
     transform: translateY(-50%);
 }
+
 .checkBox {
     width: 15px;
     height: 12px;
     margin-right: 5px;
     margin-top: 7px;
     transform: translateY(-50% -50%);
+}
+
+@media screen and (min-width: 530px) {
+    #page {
+        width: 550px;
+        margin: auto;
+        box-sizing: border-box;
+    }
+
+    .input {
+        padding-left: 15px;
+        font-size: 15px;
+        height: 50px;
+        width: 95%;
+        border-radius: 25px;
+        border: none;
+        outline: none;
+        margin: auto;
+        z-index: 1000;
+    }
+
+    #icon {
+        position: absolute;
+        color: rgb(15, 142, 15);
+        font-size: 35px;
+        left: 90%;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+
+    .delete {
+        margin-top: 0;
+        position: absolute;
+        right: 5px;
+        font-size: 13px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .edit {
+        margin-top: 0;
+        position: absolute;
+        right: 25px;
+        font-size: 13px;
+        color: black;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }
