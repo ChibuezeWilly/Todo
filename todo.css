@@ -14,6 +14,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 #todo {
@@ -22,6 +23,7 @@ body {
     align-items: center;
     left: 50%;
     right: 50%;
+    overflow: hidden;
 }
 
 .heading {
@@ -49,18 +51,19 @@ form {
     position: relative;
     border: none;
     margin: auto;
+    overflow: hidden;
 }
 
 .input {
     padding-left: 15px;
     font-size: 15px;
     height: 50px;
-    width: 90%;
+    min-width: 95%;
+    max-width: 100%;
     border-radius: 25px;
     border: none;
     outline: none;
     margin: auto;
-    overflow-x: auto;
 }
 
 #icon {
